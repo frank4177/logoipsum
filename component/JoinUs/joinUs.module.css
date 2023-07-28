@@ -1,0 +1,104 @@
+.joinUs {
+    margin-top: 80px;
+    min-height: 500px;
+    padding: 10px 9%;
+  }
+  
+  .wrapper {
+    background-image: url(/assets/images/lineArt.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--black-background);
+    min-height: 439px;
+    border-radius: 30px;
+    padding: 20px;
+  }
+
+  .wrapper h3 {
+    color: #96ef76;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .wrapper p {
+    color: white;
+    max-width: 601px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  
+  .paymentBadge {
+    display: flex;
+    gap: 15px;
+    width: fit-content;
+    min-height: 66px;
+    justify-content: center;
+  }
+  
+  .badge {
+    cursor: pointer;
+    max-width: 176px;
+    width: 100%;
+  }
+
+
+  /******* MEDIA QUERIES ********/
+@media (max-width: 1330px) {
+  
+    .joinUs {
+      padding: 0px 5%;
+    }
+  }
+  
+  @media (max-width: 1120px) {
+  
+    .joinUs {
+      padding: 0px 3%;
+    }
+  }
+  
+  
+  @media (max-width: 740px) {
+    .badge {
+      max-width: 156px;
+      height: 57px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .wrapper {
+      min-height: 400px;
+    }
+  
+    .wrapper h3 {
+      font-size: 17px;
+    }
+  
+    .wrapper p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  
+    .badge {
+      max-width: 110px;
+      height: 50px;
+    }
+  }
+  
+  
+  @media (max-width: 300px) {
+    .badge {
+      max-width: 80px;
+      height: 40px;
+    }
+  }
