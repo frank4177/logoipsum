@@ -9,7 +9,7 @@ const MissionVision = () => {
   const customAnimation = keyframes`
   from {
     opacity: 0;
-    transform: translateY(150px);
+    transform: translateY(160px);
   }
 
   to {
