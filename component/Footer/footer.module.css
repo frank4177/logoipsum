@@ -71,12 +71,12 @@
     justify-content: space-between;
     flex-direction: column;
   }
+  .container {
+    padding: 30px 6%;
+  }
 }
 
 @media (max-width: 450px) {
-    .container {
-        padding: 30px 5%;
-      }
   .menuWrap {
     flex-direction: column;
   }

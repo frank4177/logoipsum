@@ -25,7 +25,7 @@
 
 @media (max-width: 740px) {
   .container {
-    padding: 0px 5%;
+    padding: 0px 6%;
     flex-direction: column;
     justify-content: center;
     gap:30px ;

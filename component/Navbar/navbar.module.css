@@ -56,10 +56,8 @@
   .icon {
     display: block;
   }
-}
 
-@media (max-width: 450px) {
   .container {
-    padding: 10px 5%;
+    padding: 10px 6%;
   }
 }

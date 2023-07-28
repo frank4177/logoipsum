@@ -53,7 +53,7 @@
   }
 
   .cardWrap {
-    gap: 16px;
+    gap: 28px;
     display: grid;
     grid-template-columns: auto;
     place-items: center;
@@ -63,7 +63,7 @@
 
 @media (max-width: 450px) {
   .wsua {
-    padding: 0px 5%;
+    padding: 0px 6%;
     text-align: center;
   }
 
