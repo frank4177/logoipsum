@@ -7,7 +7,7 @@ import { Zoom } from "react-awesome-reveal";
 
 const JoinUs = () => {
   return (
-    <section className={styles.joinUs}>
+    <section className={styles.container}>
       <Zoom  triggerOnce={true} style={{ width: "100%" }}>
         <div className={styles.wrapper}>
           <h3>Join Us on Our Financial Journey</h3>

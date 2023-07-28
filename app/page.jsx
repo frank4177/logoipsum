@@ -7,7 +7,7 @@ import TextCard from "@/component/Card/TextCard/TextCard";
 import { whatSetUsApartData } from "@/utils/data";
 import Footer from "@/component/Footer/Footer";
 import JoinUs from "@/component/JoinUs/JoinUs";
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export default function Home() {
   return (
@@ -20,11 +20,11 @@ export default function Home() {
       <section className={styles.wsua}>
         <h3>What Sets Us Apart</h3>
         <div className={styles.cardWrap}>
-          <Slide direction="up" triggerOnce={true} cascade damping={0.1}>
+          <Fade triggerOnce={true} cascade damping={0.1}>
             {whatSetUsApartData.map((item) => (
               <TextCard data={item} key={item.title} />
             ))}
-          </Slide>
+          </Fade>
         </div>
       </section>
 
