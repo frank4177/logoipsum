@@ -48,7 +48,7 @@
 
 @media (max-width: 740px) {
   .wsua {
-    padding: 0px 3%;
+    padding: 0px 6%;
     text-align: center;
   }
 
@@ -62,10 +62,6 @@
 }
 
 @media (max-width: 450px) {
-  .wsua {
-    padding: 0px 6%;
-    text-align: center;
-  }
 
   .wsua h3 {
     font-size: 28px;
