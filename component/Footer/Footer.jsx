@@ -8,16 +8,16 @@ import { Fade } from "react-awesome-reveal";
 const Footer = () => {
   return (
     <footer className={styles.container}>
-      <Fade duration={500} triggerOnce={true}>
-        <div className={styles.wrapper}>
-          <Image
-            src="/assets/images/logoWhite.png"
-            width="137"
-            height="27"
-            alt="logo"
-          />
+      <div className={styles.wrapper}>
+        <Image
+          src="/assets/images/logoWhite.png"
+          width="137"
+          height="27"
+          alt="logo"
+        />
 
-          <div className={styles.menuWrap}>
+        <div className={styles.menuWrap}>
+          <Fade duration={500} triggerOnce={true} cascade>
             <div>
               <p>Support</p>
               <ul>
@@ -42,9 +42,10 @@ const Footer = () => {
                 <li>Facebook</li>
               </ul>
             </div>
-          </div>
+          </Fade>
         </div>
-      </Fade>
+      </div>
+
       <hr />
       <div className={styles.bottomText}>Design with ❤️ for SaaS</div>
     </footer>

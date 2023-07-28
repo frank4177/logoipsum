@@ -34,8 +34,7 @@
   right: 0;
   bottom: 0;
   transform: translateX(0);
-  max-width: 250px;
-  width: 100%;
+  width: 60%;
   height: 100vh;
   padding: 30px 15px;
   box-sizing: border-box;
@@ -51,8 +50,7 @@
   right: 0;
   bottom: 0;
   transform: translateX(100%);
-  max-width: 250px;
-  width: 100%;
+  width: 60%;
   height: 100vh;
   padding: 30px 15px;
   box-sizing: border-box;
@@ -74,4 +72,22 @@
 .dataWrap li {
   cursor: pointer;
   font-size: 18px;
+}
+
+
+/****** MEDIA QUERIES *******/
+@media (max-width: 1120px) {
+  .container {
+    padding: 10px 3%;
+  }
+}
+
+@media (min-width: 740px) {
+  .drawerOpen{
+    display: none;
+  }
+
+  .overlayOpen{
+    display: none;
+  }
 }
