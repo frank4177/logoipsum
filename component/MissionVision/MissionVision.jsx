@@ -2,8 +2,21 @@ import React from "react";
 import styles from "./missionVision.module.css";
 import Image from "next/image";
 import MissionVissionCard from "../Card/MissionVissionCard/MissionVissionCard";
+import { Slide } from "react-awesome-reveal";
+import { keyframes } from "@emotion/react";
 
 const MissionVision = () => {
+  const customAnimation = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
   const missionVisonData = [
     {
       title: "Our Mission",
@@ -23,9 +36,11 @@ const MissionVision = () => {
 
   return (
     <section className={styles.container}>
+      <Slide keyframes={customAnimation} direction="up" triggerOnce={true} fraction={0}>
         {missionVisonData.map((data) => (
           <MissionVissionCard data={data} key={data.title} />
         ))}
+      </Slide>
     </section>
   );
 };

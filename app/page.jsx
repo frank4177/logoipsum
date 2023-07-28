@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import styles from "./page.module.css";
 import Navbar from "@/component/Navbar/Navbar";
 import Hero from "@/component/Hero/Hero";
@@ -7,7 +7,7 @@ import TextCard from "@/component/Card/TextCard/TextCard";
 import { whatSetUsApartData } from "@/utils/data";
 import Footer from "@/component/Footer/Footer";
 import JoinUs from "@/component/JoinUs/JoinUs";
-
+import { Slide } from "react-awesome-reveal";
 
 export default function Home() {
   return (
@@ -20,15 +20,17 @@ export default function Home() {
       <section className={styles.wsua}>
         <h3>What Sets Us Apart</h3>
         <div className={styles.cardWrap}>
-          {whatSetUsApartData.map((item) => (
-            <TextCard data={item} key={item.title} />
-          ))}
+          <Slide direction="up" triggerOnce={true} cascade damping={0.1}>
+            {whatSetUsApartData.map((item) => (
+              <TextCard data={item} key={item.title} />
+            ))}
+          </Slide>
         </div>
       </section>
 
       {/* JOIN OUR FINANCIAL JOURNEY */}
-      <JoinUs/>
-      
+      <JoinUs />
+
       <Footer />
     </main>
   );

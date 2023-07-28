@@ -1,7 +1,9 @@
 .joinUs {
-    margin-top: 80px;
     min-height: 500px;
-    padding: 10px 9%;
+    padding: 0px 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .wrapper {
