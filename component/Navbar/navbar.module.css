@@ -1,10 +1,14 @@
 .container {
   height: 86px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   display: flex;
   box-sizing: border-box;
   padding: 10px 9%;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
 }
 
 .menuWrap {
@@ -60,4 +64,11 @@
   .container {
     padding: 10px 6%;
   }
+}
+
+
+@media (max-width: 240px) {
+ .logo{
+  display: none;
+ }
 }

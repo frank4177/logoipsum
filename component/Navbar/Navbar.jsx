@@ -11,7 +11,7 @@ const Navbar = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
 
   return (
-    <>
+    
       <nav className={styles.container}>
         {/* LOGO */}
         <Fade duration={500} triggerOnce={true} cascade >
@@ -20,6 +20,7 @@ const Navbar = () => {
             width="137"
             height="27"
             alt="logo"
+            className={styles.logo}
           />
 
           {/* MENU */}
@@ -49,7 +50,7 @@ const Navbar = () => {
           className={styles.icon}
         />
       </nav>
-    </>
+    
   );
 };
 

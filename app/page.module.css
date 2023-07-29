@@ -1,11 +1,10 @@
-.main{
-  overflow: hidden;
-}
+
 
 .wsua {
   margin-top: 100px;
   min-height: 590px;
   padding: 10px 9%;
+  overflow: hidden;
 }
 
 .wsua h3 {
