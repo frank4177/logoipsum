@@ -21,6 +21,8 @@ const MissionVision = () => {
     {
       title: "Our Mission",
       image: "/assets/images/pinkBox.png",
+      width:"256",
+      height:"288",
       desc: "Our mission is to revolutionize the financial landscape by empowering individuals and businesses with innovative and secure financial solutions. We strive to bridge the gap between traditional banking systems and cutting-edge technology, ensuring a seamless and inclusive financial experience ....",
       descMobi:
         "Our mission is to revolutionize the financial landscape by empowering individuals and businesses with innovative and secure financial...",
@@ -28,6 +30,8 @@ const MissionVision = () => {
     {
       title: "Our Vision",
       image: "/assets/images/cylinders.png",
+      width:"225",
+      height:"247",
       desc: "  Our vision is to create a world where financial freedom is accessible to everyone, irrespective of their background or location. We envision a future where financial decisions are driven by data-driven insights , smart automation, and transparent practices, empowering individuals to make informed cho ....",
       descMobi:
         "Our vision is to create a world where financial freedom is accessible to everyone, irrespective of their background or location. We envision...",

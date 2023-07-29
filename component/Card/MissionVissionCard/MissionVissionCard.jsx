@@ -23,8 +23,8 @@ const MissionVissionCard = ({ data }) => {
         {/* IMAGE */}
         <Image
           src={data.image}
-          width="245"
-          height="278"
+          width={data.width}
+          height={data.height}
           alt="image"
           quality={100}
           className={styles.img}

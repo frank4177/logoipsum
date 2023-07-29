@@ -46,11 +46,11 @@
 
 /******* MEDIA QUERIES ********/
 @media (max-width: 1120px) {
-  .img {
+  /* .img {
     max-width: 180px;
     width: 100%;
     height: unset !important;
-  }
+  } */
 
   .icon {
     height: 45px;
@@ -81,11 +81,11 @@
     width: 50px;
   }
 
-  .img {
+  /* .img {
     max-width: 240px;
     width: 100%;
     height: unset !important;
-  }
+  } */
 }
 
 @media (max-width: 450px) {
@@ -101,9 +101,9 @@
     min-height: unset;
   }
 
-  .img {
+  /* .img {
     max-width: 150px;
-  }
+  } */
 
   .icon {
     height: 40px;

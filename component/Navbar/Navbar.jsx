@@ -3,8 +3,13 @@
 import React, { useState } from "react";
 import styles from "./navbar.module.css";
 import Image from "next/image";
-import Drawer from "../Drawer/Drawer";
+// import Drawer from "../Drawer/Drawer";
+import dynamic from "next/dynamic";
 import { Fade } from "react-awesome-reveal";
+
+const Drawer = dynamic(()=> import('../Drawer/Drawer'),{
+  ssr: false
+})
 
 const Navbar = () => {
   const navMenus = ["Home", "Our services", "Pricing", "Company"];
