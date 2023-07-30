@@ -27,6 +27,7 @@ const Hero = () => {
           height="513"
           alt="dashboard"
           className={styles.img}
+          priority
         />
       </div>
     </section>
